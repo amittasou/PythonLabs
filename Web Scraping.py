@@ -1,3 +1,6 @@
+# The following code will download the content from the top unanswered questions from Stack Overflow by parsing the content,
+# then sets variables to the corresponding HTML sections that I wanted to pull (title, user, excerpt), prints those until the loop hits question 45. 
+
 import requests
 from bs4 import BeautifulSoup
 # Terminal: pip install beautifulsoup4
